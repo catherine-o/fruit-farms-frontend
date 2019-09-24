@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700&display=swap');
+
 .card {
-    height: 175px;
-    opacity: 100;
-    /* background-color: rgba(153, 161, 162, 0.043); */
+    height: 125px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(2, 55, 134, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-width: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    box-shadow: 0px 2px 0px 0px rgba(0, 37, 92, 0.3);
+}
+
+.card h2{
+    font-size: 20px;
+    text-align: center;
+    color:  rgba(2, 55, 134, 1);
+    margin-top: 15px;
+    overflow-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card h3{
+    font-size: 14px;
+    text-align: center;
+    color:  rgba(2, 55, 134, 0.8);
+    overflow-wrap: break-word;
 }
 
     /* --blue: #007bff;

@@ -1,11 +1,11 @@
 body {
-    background: no-repeat url("https://image.shutterstock.com/image-photo/background-farmer-harvesting-oranges-260nw-541494622.jpg");
+    background: no-repeat url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1495107334309-fcf20504a5ab%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9");
     /* margin-top: -60px;
     margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -30px; */
+    margin-right: -10px; */
+    margin-bottom: -30px;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
