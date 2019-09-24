@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    fetch('https://data.ct.gov/resource/y6p2-px98.json?category=Fruit')
+    fetch('http://localhost:3000/farms')
       .then(response => response.json())
       .then(result => this.setState({ farms: result}))
   }

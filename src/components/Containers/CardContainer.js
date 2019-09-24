@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../cards/Card'
+import './Container.css'
 
 export default function CardContainer({farms, setActiveCard}) {
 
