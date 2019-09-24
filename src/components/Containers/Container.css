@@ -1,11 +1,12 @@
 .container {
     width: 100%;
-    margin: 0px;
+    margin: auto;
 }
 
 .card-container {
-    margin: 15px;
+    margin: 60px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(5, 20%);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
