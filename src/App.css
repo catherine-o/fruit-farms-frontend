@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body {
-    background: no-repeat url("https://image.shutterstock.com/image-photo/background-farmer-harvesting-oranges-260nw-541494622.jpg");
+    background: no-repeat url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1495107334309-fcf20504a5ab%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9");
     /* margin-top: -60px;
     margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -30px; */
+    margin-right: -10px; */
+    margin-bottom: -30px;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+}
+
+header {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(251, 199, 56, 0.89);
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    color: rgb(98, 81, 24);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-top: 5px;
 }
 
 .search {
