@@ -7,7 +7,7 @@ export default function CardContainer({filteredFarms, setActiveCard}) {
 
     const createCards = (farms) => {
         return farms.map(farm => {
-          return <Card key={farm.id} farm={farm} />
+          return <Card key={farm.id} farm={farm} setActiveCard={setActiveCard}/>
         })
     }
 

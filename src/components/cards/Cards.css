@@ -4,6 +4,28 @@
     /* background-color: rgba(153, 161, 162, 0.043); */
 }
 
+.active-card{
+    height: 450px;
+    /* width: 60%; */
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 85px 0px;
+    /* background-image: url('https://images.unsplash.com/photo-1452804882841-573355623310?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
+    border: 15px solid black;
+    border-radius: 5px;
+}
+
+
+.details-image{
+    justify-content: 
+}
+
+.active-image {
+    width: 300px;
+    margin: 0px 50px;
+}
+
     /* --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
