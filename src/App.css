@@ -27,6 +27,7 @@ header {
 }
 
 .search {
+    margin: 65px auto;
     margin-left: 10%;
     display: block;
 }
