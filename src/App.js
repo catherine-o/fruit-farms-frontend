@@ -1,34 +1,27 @@
 import React, { Component } from 'react'
 import Container from './components/Containers/Container'
 import './App.css'
-
 class App extends Component {
   state = {
     farms: [],
     search: ''
   }
-
   componentDidMount(){
     fetch('http://localhost:3000/farms')
       .then(response => response.json())
       .then(result => this.setState({ farms: result}))
   }
-
   filteredFarms = () => {
     return this.state.farms.filter(farm => {
       return farm.item.toLowerCase().includes(this.state.search.toLowerCase())
     })
   }
-
   
-
   handleChange = (event) => {
     this.setState({
       search: event.target.value
     })
   }
-
-
   render() {
     return (
       <div className="App">
@@ -49,5 +42,4 @@ class App extends Component {
   }
   
 }
-
 export default App

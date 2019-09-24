@@ -1,3 +1,14 @@
+body {
+    background: no-repeat url("https://image.shutterstock.com/image-photo/background-farmer-harvesting-oranges-260nw-541494622.jpg");
+    /* margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -30px; */
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 .search {
     margin-left: 10%;
     display: block;
