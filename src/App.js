@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Container from './components/Containers/Container'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    farms: []
+  }
+
+  componentDidMount(){
+    fetch('https://data.ct.gov/resource/y6p2-px98.json?category=Fruit')
+      .then(response => response.json())
+      .then(result => this.setState({ farms: result}))
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        {this.state.farms.length > 0 ? <Container farms={this.state.farms} /> : null}
+      </div>
+    )
+  }
+  
 }
 
-export default App;
+export default App
