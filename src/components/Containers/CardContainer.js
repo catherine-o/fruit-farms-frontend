@@ -2,15 +2,18 @@ import React from 'react'
 import Card from '../cards/Card'
 import './Container.css'
 
-export default function CardContainer({farms, setActiveCard}) {
+export default function CardContainer({filteredFarms, setActiveCard}) {
 
-    const farmCards = farms.map(farm => (
-        <Card farm={farm} setActiveCard={setActiveCard} />
-    ))
+
+    const createCards = (farms) => {
+        return farms.map(farm => {
+          return <Card key={farm.id} farm={farm} />
+        })
+    }
 
     return (
         <div className='card-container'>
-            {farmCards}
+            {createCards(filteredFarms)}
         </div>
     )
 }

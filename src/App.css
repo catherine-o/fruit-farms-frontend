@@ -1,14 +1,26 @@
-.App {
+body {
     background: no-repeat url("https://image.shutterstock.com/image-photo/background-farmer-harvesting-oranges-260nw-541494622.jpg");
-    margin-top: -60px;
+    /* margin-top: -60px;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: -30px;
+    margin-bottom: -30px; */
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.App::after {
-    opacity: 0.2;
+.search {
+    margin-left: 10%;
+    display: block;
+}
+
+.search label {
+    font-size: 45px;
+}
+
+.search input {
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
 }
