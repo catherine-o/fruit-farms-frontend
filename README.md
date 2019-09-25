@@ -1,6 +1,8 @@
 ## Flatiron Hackathon 9.24.19
 Theme: Juice
 
+![](https://media.giphy.com/media/KCkXUE9qmAwMRWCTxW/giphy.gif)
+
 Backend:
 [https://github.com/kwokasch/Hackathon_Fruit-Farms](https://github.com/kwokasch/Hackathon_Fruit-Farms)
 
