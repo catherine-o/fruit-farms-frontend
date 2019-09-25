@@ -27,17 +27,22 @@ header {
 }
 
 .search {
+    margin: 65px auto;
     margin-left: 10%;
     display: block;
 }
 
 .search label {
     font-size: 45px;
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .search input {
     width: 90%;
     height: 50px;
     font-size: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
